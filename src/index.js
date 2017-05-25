@@ -69,6 +69,7 @@ class Board extends React.Component {
 }
 
 class Game extends React.Component {
+  /*
   render() {
     return (
       <div className="game">
@@ -76,9 +77,18 @@ class Game extends React.Component {
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
+          <div>{/* status }</div>
+          <ol>{/* TODO }</ol>
         </div>
+      </div>
+    );
+  }
+  */
+  render() {
+    console.log(window);
+    return (
+      <div id="drawer" style={{ minWidth: '100', width: .15 * window.innerWidth, height: window.innerHeight }}>
+        <button onclick="insert()">insert</button>
       </div>
     );
   }
