@@ -1,0 +1,1634 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- Contents of this file are Copyright 2017, Dell Inc. -->
+<html>
+<head>
+	<TITLE>Dell Factory Outlet</TITLE>
+	<META NAME="KEYWORDS" CONTENT="Laptop, Laptops, Notebook, Notebooks, Printer, Printers, Dell, Computer, Desktop, Desktops, TV, TVs, Monitor, Monitors, Technology">
+	<META NAME="METRICSPATH" CONTENT="&eiwatch=outlet.us.dell.com/us/en/dfh/22/ArbOnlineSales^Online^InventorySearch/">
+	<META NAME="DESCRIPTION" CONTENT="Dell is a direct partner to businesses and consumers that delivers innovative technology and services.">
+	<META NAME="PRODCAT" CONTENT="desktops">
+	<META NAME="AUTHOR" CONTENT="Dell US">
+	<META NAME="LANGUAGE" CONTENT="en">
+	<META NAME="DOCUMENTCOUNTRYCODE" CONTENT="us">
+	<META NAME="COUNTRY" CONTENT="us">
+	<META NAME="ENVIRONMENT" CONTENT="ST">
+	<META NAME="SEGMENT" CONTENT="dfh">
+	<META NAME="generator" CONTENT="Storm Content Publishing Engine v8.8.00.0001; Copyright 1999-2017 Dell Inc. ">
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<link rel="preload" href="http://fcs.dellcdn.com/fonts/default-font.css" as="style" onload="this.rel='stylesheet'" /> 
+	<noscript><link rel="stylesheet" href="http://fcs.dellcdn.com/fonts/default-font.css" /></noscript>
+	<LINK REL="STYLESHEET" TYPE="text/css" HREF="/arbonlinesales/public/css.aspx?c=us&l=en&~set=arb/arb88">
+	<LINK REL="STYLESHEET" TYPE="text/css" HREF="/arbonlinesales/public/css.aspx?c=us&l=en&~set=storm88MH">
+	<script language="javascript" src="http://nexus.ensighten.com/dell/Bootstrap.js"></script>
+	<script language="javascript" src="http://fcs.dellcdn.com/fonts/asynccss.js"></script>
+	<script language="javascript" src="http://i.dell.com/images/global/js/tlinclude82a.js"></script>
+	<script language="javascript" src="http://i.dell.com/images/global/js/lib/jquery-1.2.2e.js"></script>
+	<script language="javascript" src="http://i.dell.com/images/global/js/common88.js"></script>
+	<script language="javascript" src="http://i.dell.com/images/global/js/ph.js"></script>
+	<script language="javascript" src="/arbonlinesales/public/menu.aspx?c=us&l=en&s=dfh&cs=22"></script>
+	<script type="text/javascript" language="javascript">
+		var m_glossaryURLBase="/ArbOnlineSales/public/glossary.aspx";
+		var m_requestURLBase='/ArbOnlineSales/public/glossary.aspx?c=us&s=dfh&l=en&cs=22';
+		var m_tnPopupEnabled = true;
+	</script>
+
+	<LINK REL="SHORTCUT ICON" HREF="http://i.dell.com/images/global/branding/dellecomicon.ico">
+	<LINK rel="search" href="http://i.dell.com/images/global/search/opensearchusen.xml" type="application/opensearchdescription+xml" title="Dell.com"/></head>
+<body id="bodyTag" class="bodyNextGen"><table cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<header id="revidHeader" data-bind="attr: { 'class': css }">
+	<div class="custHelp" data-bind="'if': !isPopup">
+		<div class="col12 cntrDiv clrFix">
+			<span class="help" data-bind="html: contactUs"></span>
+			<span data-bind="css: { premier: true, noMda: !(mda.length > 0), nonEmpty: (premier.showTitle || premier.storeTitle || premier.linkTxt) }">
+				<span class="storeNm" data-bind="'if': premier.showTitle, text: premier.storeTitle"></span>
+				<a data-bind="if: pageTools.length == 0, text: premier.linkTxt, attr: { href: premier.linkUrl }"></a>
+				<span data-bind="foreach: pageTools">
+					<span></span>
+					<a data-bind="text: Text, attr: {href: Url}"></a>
+					<span data-bind="if: ($parent.pageTools.length > ($index()+1)), css: { mhSep: true }">|</span>
+				</span>
+			</span>
+			<span class="osRec" data-bind="html: mda.length > 0 ? mda : '', css: { osRec: mda.length > 0 }"></span>
+		</div>
+	</div>
+	<nav class="mh" data-bind="template: { afterRender: bindEvents }">
+		<div class="col12 cntrDiv clrFix topNav">
+			<a href="http://www.dell.com/" class="mhLogo" data-bind="if: !isHome, attr: { title: logoLink, href: logoLink }"><img src="http://i.dell.com/images/global/brand/ui/logo-wt-bl.png" width="49" height="49" alt="Dell" title="Dell" border="0" /></a>
+			<span class="mhHomeLogo mhLogo" data-bind="if: isHome"><img src="http://i.dell.com/images/global/brand/ui/logo-wt-bl.png" width="49" height="49" alt="Dell" title="Dell" border="0" /></span>
+			<div class="tierNav" data-bind="'if': navigation.length > 0">
+				<ul id="tr1" class="tier1">
+					<li class="t1li noMarg">
+						<ul class="t1Nav" data-bind="foreach: navigation">
+								<li data-bind="attr: { id: containerId }, css: { t1li: true, curSel: isActive }">
+								<div data-bind="attr: { 'class': cssClass }">
+									<a href="#" class="mNav" data-bind="html: caption, attr: { rel: containerId, href: url, target: target }"></a>
+									<span></span>
+								</div>
+								<!-- BEGIN SUBNAV TIER2 -->
+								<div class="subNav" data-bind="attr: { id: containerId + '_sub' }">
+									<div class="col12 cntrDiv clrFix">
+										<ul class="tier2" data-bind="foreach: subNavigation">
+											<li data-bind="attr: { id: containerId }, css: { t2li: true, last: isLast }">
+												<div class="tierLink" data-bind="attr: { 'class': cssClass }">
+													<a href="#" class="mNav" data-bind="html: caption, attr: { rel: containerId, href: url, target: target }"></a>
+													<span></span>
+												</div>
+												<!-- BEGIN SUBNAV TIER3 -->
+												<div class="subNav" data-bind="attr: { id: containerId + '_sub' }">
+													<div class="col12 cntrDiv clrFix">
+														<ul class="viewAll clrFix">
+															<li class="col3" data-bind="template: { name: 'viewAll-template', data: $parent }"></li>
+															<li class="col3" data-bind="template: { name: 'viewAll-template', 'if': subNavigation.length > 0 }"></li>
+															<li class="closeTier"><a href="#" data-bind="attr: { title: $root.closeLabel }"><span></span></a></li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="login t1li" data-bind="'if': pbar.showMA">
+						<div class="tierLogin" data-bind="template: { name: function () { return pbar.showAuthMsg ? 'pbar-showAuthMsg-template' : 'pbar-noShowAuthMsg-template' }, data: pbar }"></div>
+					</li>
+				</ul>
+			</div>
+			<div data-bind="'if': isPopup, css: { osRec: mda.length > 0 }"><span data-bind="    html: mda.length > 0 ? mda : ''"></span></div>
+			<div class="crtSrch" data-bind="'if': !isPopup">
+				<span data-bind="template: { name: 'showCart-template', 'if': cart.showCart }"></span>
+				<span data-bind="template: { name: 'showSearch-template', 'if': search.showSearch }"></span>
+			</div>
+		</div>
+	</nav>
+	<!-- PAGETOOLS AND BREADCRUMB TEMPLATES FOR STORM ONLY -->
+	<div class="col12 cntrDiv clrFix">
+		<div data-bind="'if': ptools.length > 0">
+			<ul class="pgTools clrFix" data-bind="foreach: { data: ptools, as: 'ptool' }">
+				<li data-bind="template: { name: function () { return HasLink ? 'ptoolHasLink-template' : 'ptoolHasNoLink-template' }, data: ptool }"></li>
+			</ul>
+		</div>
+		<div data-bind="'if': bcrumbs.length > 0">
+			<ul class="bCrumb clrFix" data-bind="foreach: { data: bcrumbs, as: 'bcrumb' }">
+				<li data-bind="template: { name: function () { return HasLink ? 'bCrumbHasLink-template' : 'bCrumbHasNoLink-template' }, data: bcrumb }, attr: { 'class': ($index() === 0) ? 'home' : '' }"></li>
+			</ul>
+		</div>
+	</div>
+</header>
+				
+
+<script type="text/javascript" language="JavaScript">
+m_printLink = "javascript:printview()";var m_mhTheme = null;
+var m_pageTheme = null;
+var m_imgPfx = "http://i.dell.com";
+var m_pbarPfx = "http://pbar.us.dell.com";
+var _curAuthLevel = 0;
+var _curAuthEmailID = "";
+var m_pbarTabTitle = "My Account";
+var m_privacySettingBar = new PrivacySettingStrip( "true","Manage Cookies")
+var m_pbarCart = new PbarCartStrip( "Cart","http://ecomm.dell.com/dellstore/basket.aspx?c=us&l=en&s=dfh&cs=22","item","Loading...",0,false )
+var m_pbarMA = new PbarMAStrip("Hello, {fname} ({clearuser})","Hello, {fname} ({clearuser})","<b>Sign In</b>","not {fname}?",false,false,"Customer","","Loading...",false,"Sign In to Your Account");
+var m_myAccountLink    = "https://ecomm.dell.com/myaccount/main.aspx?c=us&l=en&s=dfh&cs=22";
+var m_pbar_privacysetting_link = "true";
+var m_pbar_privacysetting_link_caption = "Manage Cookies";
+addPnLink( "My Order Status", "https://support.dell.com/support/order/GlobalOrderHome.aspx?c=us&cs=22&l=en&s=dfh", "c_orderstatus" );
+addPnLink( "Chat", "javascript:winopen('http://channels.us.dell.com/netagent/cimlogin.aspx?questid=4F429D73-23E6-498B-8B61-45F40BD9F24B&portid=55B798AF-CF0C-4BA6-8599-222331CE692E'+'&nareferer='+escape(document.location),'popup2','WIDTH=650,HEIGHT=510,RESIZABLE=YES,SCROLLBARS=YES,TOOLBAR=YES,LEFT=0,TOP=20');", "c_chat" );
+addPnLink( "Email Updates", "https://home.dell.com/q/DELL_PREF_ABU/SignupUS_V2?b=DHS&cc=US&lc=EN&Src=Dell", "c_email" );
+addPnLink( "Financing Offers", "http://www.dell.com/content/topics/segtopic.aspx/dpa_payment_options?c=us&cs=22&l=en&s=dfh", "c_finance" );
+addPnLink( "Deals", "http://www.dell.com/learn/us/en/22/campaigns/dell-coupons-codes-us-outlet", "cp_scissors" );
+addPnLink( "Gift Cards", "http://lt.dell.com/lt/lt.aspx?CID=283219&LID=5391151&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/learn/us/en/22/campaigns/gift-card-outlet-us", "c_gift" );
+m_mda = "";
+m_isRtl = false;
+m_curUrl = "http://outlet.us.dell.com/ArbOnlineSales/Online/InventorySearch.aspx?c=us&cs=22&l=en&s=dfh&brandid=2201&sign=PXhcOSHtr1T4IOw%2fPR7UdeQtbyhLTSCPtk9T%2biRSy4QpAPByz8ZiU1SGs%2fxJbwPdwFXQqFeTWCNa2Wm34rY2e25qIC42i5BFu9Fn0n5JbxrJf6HQx%2fWeRXCI8Rvf1IrLagqoVRPvS0ORu5tjlnuqU7w7uAioDWTYeLsGCu3VLD6%2byW4WuAPu1qasosL3MscKmI%2b893L1j0S%2ftGBEduCSq%2fnJ1PGGDEsHFyMS%2fDtO0xDfAiBeAnq%2b93PXTIfmDH7O&AspxAutoDetectCookieSupport=1";
+m_isCenter = true;
+addCrumb( "USA", "http://www1.us.dell.com/content/default.aspx?c=us&l=en&s=gen", false );
+addCrumb( "Dell Outlet Home & Home Office", "http://www1.us.dell.com/content/default.aspx?c=us&cs=22&l=en&s=dfh", false );
+m_seglink = null;
+var m_searchOverflowMsg = "...Subsequent words are ignored due to limitation";
+writeMH( "Contact Outlet sales at 888-518-3355 or </a><a href='http://www.dell.com/us/dfh/p/?dgc=IR&cid=282545&lid=5369082'>Chat</a>"," (M-F 9am to 9pm ET)", null, null, false, true, null );
+var hoverovertime = 1300;
+var m_containerTimeout = 500;
+var m_popClose = "Close";
+var m_navPage = null;
+</script>
+<noscript>
+<a href="#skipMH"><img src="http://i.dell.com/images/global/general/spacer.gif" alt="Skip to main content" border="0" width="1" height="1" /></a><a name="mastheadtop"></a><div class="mastheadcontainernoscript"><table cellpadding="0" cellspacing="0" border="0" class="centertable" id="noscript" width="965"><tr>
+<td colspan="3" valign="middle" nowrap="true"><span class="locale_selector"><div class="para_small" style="padding-bottom:4px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/content/public/choosecountry.aspx?c=us&l=en&s=dfh&cs=22">Choose A Country/Region</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="crumbsel">English</span></div></span><span class="message_buyonline">&nbsp;&nbsp;&nbsp;
+Contact Outlet sales at 888-518-3355 or </a><a href='http://www.dell.com/us/dfh/p/?dgc=IR&cid=282545&lid=5369082'>Chat</a>  (M-F 9am to 9pm ET) </span></td></tr><tr><td rowspan="2"><div class="logocontainernoscript" id="logocontainernoscript"><a href="http://www.dell.com/" class="alinknoscript"><img src="http://i.dell.com/images/global/brand/ui/storm80/logo80.gif" alt="Dell" border="0"></a></div>
+</td>
+<td valign="bottom" width="100%"><table  cellspacing="0" cellpadding="0" border="0" width="100%"><tr>
+<td><div class="activetab"><div class="activetabcontent" align="center" nowrap="1">
+<a href="http://www.dell.com/content/default.aspx?c=us&cs=22&l=en&s=dfh" class="alinknoscript">Outlet for Home</a></div></div></td>
+<td><div class="activetab"><div class="activetabcontent" align="center" nowrap="1">
+<a href="http://www.dell.com/support/home/?c=us&l=en&s=dhs" class="alinknoscript">Support</a></div></div></td>
+<td width="100%">&nbsp;</td></tr></table>
+</td><td>&nbsp;</td></tr>
+<tr><td colspan="2"><table cellspacing="0" cellpadding="0" width="100%"><tr><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainerfirstnomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://www.dell.com/learn/us/en/22/campaigns/dell-coupons-codes-us-outlet?~ck=mn" class="subnavlinknomenu">Deals</a></td></tr></table></div></td><td width="2"><div class="subnavlinkdivide"></div></td><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainernomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2201&c=us&cs=22&l=en&s=dfh&dgc=IR&cid=258996&lid=4635114&~ck=mn" class="subnavlinknomenu">Laptops & Tablets</a></td></tr></table></div></td><td width="2"><div class="subnavlinkdivide"></div></td><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainernomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2202&c=us&cs=22&l=en&s=dfh&~ck=mn" class="subnavlinknomenu">Desktops & All-in-Ones</a></td></tr></table></div></td><td width="2"><div class="subnavlinkdivide"></div></td><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainernomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=222806&c=us&cs=22&l=en&MODEL_DESC=ALL&s=dfh&~ck=mn" class="subnavlinknomenu">Monitors</a></td></tr></table></div></td><td width="2"><div class="subnavlinkdivide"></div></td><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainernomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647852&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/support/home/us/en/19?c%3dus%26s%3ddhs%26cs%3d19%26l%3den&~ck=mn" class="subnavlinknomenu">Support & Services</a></td></tr></table></div></td><td width="2"><div class="subnavlinkdivide"></div></td><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainernomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://www.dell.com/content/topics/segtopic.aspx/dpa_payment_options?c=us&cs=22&l=en&s=dfh&~ck=mn" class="subnavlinknomenu">Financing</a></td></tr></table></div></td><td width="2"><div class="subnavlinkdivide"></div></td><td class="subnavlinkcell" valign="middle" align="left"><div name="mh_subnavlink" class="subnavlinkcontainerlastnomenu"><table cellpadding="0" cellspacing="0" height="30"><tr><td><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4668286&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/us/dfb/p/?cs%3d28%26c%3dus%26l%3den%26s%3ddfb%26redirect%3d1&~ck=mn" class="subnavlinknomenu">Outlet for Work</a></td></tr></table></div></td></tr></table></td></tr><tr><td colspan="3" valign="middle" height="40px"><table cellspacing="0" cellpadding="0" width="100%"><tr><td><div class="para_crumb_43"><a class="lnk_crumb43selected" href="http://www1.us.dell.com/content/default.aspx?c=us&cs=22&l=en&s=dfh">Dell Outlet Home & Home Office</a></div></td></tr></table></td></tr></table></div>
+<div class="tertiarynavcontainer"><table cellpadding="0" cellspacing="0" border="0" class="centertable" id="noscript" width="965">
+<tr><td colspan="3" height="20" align="right"><a href="https://support.dell.com/support/order/GlobalOrderHome.aspx?c=us&cs=22&l=en&s=dfh">My Order Status</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:winopen('http://channels.us.dell.com/netagent/cimlogin.aspx?questid=4F429D73-23E6-498B-8B61-45F40BD9F24B&portid=55B798AF-CF0C-4BA6-8599-222331CE692E'+'&nareferer='+escape(document.location),'popup2','WIDTH=650,HEIGHT=510,RESIZABLE=YES,SCROLLBARS=YES,TOOLBAR=YES,LEFT=0,TOP=20');">Chat</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://home.dell.com/q/DELL_PREF_ABU/SignupUS_V2?b=DHS&cc=US&lc=EN&Src=Dell">Email Updates</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dell.com/content/topics/segtopic.aspx/dpa_payment_options?c=us&cs=22&l=en&s=dfh">Financing Offers</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.dell.com/learn/us/en/22/campaigns/dell-coupons-codes-us-outlet">Deals</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://lt.dell.com/lt/lt.aspx?CID=283219&LID=5391151&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/learn/us/en/22/campaigns/gift-card-outlet-us">Gift Cards</a>&nbsp;&nbsp;</td></tr></table>
+</div><br/><table cellspacing="0" cellpadding="0"><tr><td class="fragCntBrdFull" valign="top" width="924"><div id="column5"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td valign="top" width="182"><table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="182"><table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="182"><span class="title_emph"><div style="padding-bottom: 4pt">Outlet for Home</div></span><div width="182"><div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Deals</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Laptops & Tablets</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?c=us&cs=22&l=en&s=dfh&brandid=2201&fid=7009&fid=7026&fid=119089&fid=119098&fid=10098&fid=100238&fid=110094&fid=11116&fid=1299&fid=100987&fid=119087&fid=110059&fid=11903&fid=1929&fid=11092&fid=1064&fid=3789&fid=7004&fid=11118&fid=110079&fid=11002&fid=11098&fid=110934&fid=11090&fid=111059&fid=2075&fid=100378&fid=100467&fid=11909&fid=110666&fid=6123&fid=1999&fid=4933&fid=10234&fid=11990&fid=110077&fid=11117&fid=1089&fid=110022&fid=3790&fid=6993&fid=6992&fid=11115&fid=100978&fid=10989&fid=4934&fid=100986&fid=110095&fid=7027&fid=4935&fid=116665&fid=111109&fid=111083&fid=119870&fid=111112&fid=111178&fid=7027&fid=10989&fid=111156&fid=111066&fid=111164&fid=111165&fid=111069&fid=111163&fid=111162&fid=111159&fid=111158&fid=111155&fid=111204&fid=200006&fid=20008&fid=200004&fid=111203&fid=200000&fid=111196&fid=111192&fid=111084&fid=111167&fid=111191&~ck=mn">Inspiron Laptops & Tablets</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=2201&c=us&cs=22&l=en&s=dfh&frid=144&~ck=mn">XPS Laptops & Tablets</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=7777&c=us&cs=22&l=en&s=dfh&dgc=IR&cid=258996&lid=4635116&~ck=mn">Tablets Laptops & Tablets</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=2201&c=us&cs=22&l=en&s=dfh&frid=186&~ck=mn">Alienware Laptops & Tablets</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=2201&c=us&cs=22&l=en&s=dfh&frid=187&~ck=mn">Dell Chromebooks Laptops & Tablets</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Desktops & All-in-Ones</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=2202&c=us&cs=22&l=en&s=dfh&frid=196&~ck=mn">Inspiron Desktops & All-in-Ones</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=2202&c=us&cs=22&l=en&s=dfh&frid=197&~ck=mn">XPS Desktops & All-in-Ones</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandid=2202&c=us&cs=22&l=en&s=dfh&frid=198&~ck=mn">Alienware Desktops & All-in-Ones</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Monitors</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=222806&c=us&cs=22&l=en&MODEL_DESC=ALL&s=dfh&~ck=mn">Monitors Monitors</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Support & Services</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647852&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/support/home/us/en/19?c%3dus%26s%3ddhs%26cs%3d19%26l%3den&~ck=mn">Support Home Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=281905&LID=5586786&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/learn/us/en/22/services/premium-support&~ck=mn">Premium Support Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647851&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/support/drivers/us/en/19/DriversHome/ShowProductSelector&~ck=mn">Drivers & Downloads Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647850&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/support/troubleshooting/us/en/19/TroubleShooting/ProductSelector&~ck=mn">Product Support Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647849&DGC=IR&DGSeg=ARB&DURL=http://support.dell.com/support/topics/global.aspx/support/warranty/warranty_information?c%3dus%26cs%3d22%26l%3den%26s%3ddfh&~ck=mn">Warranty Information Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647848&DGC=IR&DGSeg=ARB&DURL=https://www.dell.com/support/orderstatus/us/en/19?c%3dus%26s%3ddhs%26cs%3d19%26l%3den&~ck=mn">Order Status Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647847&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/content/topics/segtopic.aspx/shipping_info?c%3dus%26cs%3d22%26l%3den%26s%3ddfh%26%7eck%3dmn&~ck=mn">Shipping Info Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647846&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/content/topics/segtopic.aspx/returns?c%3dus%26cs%3d22%26l%3den%26s%3ddfh%26%7eck%3dmn&~ck=mn">Delivery & Returns Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647845&DGC=IR&DGSeg=ARB&DURL=http://www.dell.com/content/topics/segtopic.aspx/dpa_payment_options?c%3dus%26cs%3d22%26l%3den%26s%3ddfh%26%7eck%3dmn&~ck=mn">Make a Payment Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647844&DGC=IR&DGSeg=ARB&DURL=http://ecomm.dell.com/GSC/default.aspx?c%3dus%26cs%3d19%26l%3den%26returnPath%3dwww.dell.com%26s%3ddhs&~ck=mn">Receive Exclusive Email Offers Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4647843&DGC=IR&DGSeg=ARB&DURL=http://ecomm.dell.com/myaccount/login.aspx?at%3dga%2cremote%26c%3dus%26cs%3d22%26ct%3d1%252f30%252f2013%2b2%253a47%253a29%2bPM%26fs%3d0%26id%3d100%26l%3den%26ru%3dhttps%253a%252f%252fecomm.dell.com%252fmyaccount%252fmain.aspx%253fc%253dus%2526l%253den%2526s%253ddfh%2526cs%253d22%2526%257eck%253dmn%26s%3ddfh%26tw%3d7200&~ck=mn">My Account Support & Services</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Financing</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://www.dell.com/content/topics/segtopic.aspx/dpa_learnmore?c=us&cs=22&l=en&s=dfh&~ck=mn&~ck=mn">Learn More & Apply Now Financing</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://www.dell.com/content/topics/segtopic.aspx/dpa_learnmore?c=us&cs=22&l=en&s=dfh&~tab=2&~ck=mn&~ck=mn">View All Financing Promotions Financing</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://dfs.us.dell.com/pages/dfshomepage.aspx?c=us&l=en&s=dfh&cs=22&~ck=mn&~ck=mn">Manage Your Dell Preferred Account Financing</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://www.dell.com/content/topics/topic.aspx/us/segments/dhs/odg/paydpa3?c=us&cs=22&l=en&s=dfh&~ck=mn&~ck=mn">Make a Payment Financing</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://lt.dell.com/lt/lt.aspx?CID=259428&LID=4653114&DGC=IR&DGSeg=ARB&DURL=http://ecomm.dell.com/myaccount/login.aspx?at%3dga%2cremote%26c%3dus%26cs%3d22%26ct%3d1%252f31%252f2013%2b10%253a07%253a51%2bAM%26fs%3d0%26id%3d100%26l%3den%26ru%3dhttps%253a%252f%252fecomm.dell.com%252fmyaccount%252fmain.aspx%253fc%253dus%2526l%253den%2526s%253ddfh%2526cs%253d22%2526%257eck%253dmn%26s%3ddfh%26tw%3d7200&~ck=mn">My Account Financing</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Outlet for Work</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2801&c=us&cs=28&l=en&s=dfb&dgc=IR&cid=260177&lid=4677451&~ck=mn">Laptops & Tablets Outlet for Work</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2802&c=us&cs=28&l=en&s=dfb&dgc=IR&cid=260177&lid=4677450&~ck=mn">Desktops Outlet for Work</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2804&c=us&cs=28&l=en&s=dfb&dgc=IR&cid=260177&lid=4677449&~ck=mn">Servers Outlet for Work</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2805&c=us&cs=28&l=en&s=dfb&dgc=IR&cid=260177&lid=4677461&~ck=mn">Storage Outlet for Work</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=2881&c=us&cs=28&l=en&s=dfb&~ck=mn">Networking Outlet for Work</a></span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px; margin-left:12px;"><a href="http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?brandId=222806&c=us&cs=22&l=en&MODEL_DESC=ALL&s=dfh&~ck=mn">Monitors Outlet for Work</a></span></div></div></div></td></tr></tbody></table></td></tr></tbody></table></td><td class="vsep" width="4"><img height="1" alt="" src="http://i.dell.com/images/global/general/spacer.gif" width="4"></td><td valign="top" width="182"><table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="182"><table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="182"><span class="title_emph"><div style="padding-bottom: 4pt">Outlet for Work</div></span><div width="182"><div></div></div></td></tr></tbody></table></td></tr></tbody></table></td><td class="vsep" width="4"><img height="1" alt="" src="http://i.dell.com/images/global/general/spacer.gif" width="4"></td><td valign="top" width="182"><table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="182"><table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="182"><span class="title_emph"><div style="padding-bottom: 4pt">Support</div></span><div width="182"><div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Support by Product</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Support Library</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Order Support</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Warranty and Support Services</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">Contact Us</span></div><div><span class="lnks" style="white-space:nowrap; display: block; padding-left: 6px">My Products and Services</span></div></div></div></td></tr></tbody></table></td></tr></tbody></table></td><td class="vsep" width="4"><img height="1" alt="" src="http://i.dell.com/images/global/general/spacer.gif" width="4"></td></tr></tbody></table></td></tr></tbody></table><a name="skipMH" ></a>
+</noscript>
+<!-- content_start-->
+<div class="bodycontainer "><table class="centertable" cellpadding="0" cellspacing="0" border="0" width="928"><tr><td><div id="maincontentcnt"><table cellpadding="0" cellspacing="0"><tr><td valign="top" width="728"></td></tr>
+<tr><td valign="top" width="728">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="../Scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="../Scripts/common.js" type="text/javascript"></script>
+    <script src="../Scripts/is.js" type="text/javascript"></script>
+
+    <link type="text/css" rel="Stylesheet" href="../Styles/Stylesheet.css" /><title>
+
+</title></head>
+
+<body>
+    <div class="fl-content-width">
+        
+<div class="fl-line">
+    <h1>Laptops</h1>
+</div>
+
+
+<div id="id-primary-nav-filter" class="clear-both">
+    <script>
+
+        $("#id-primary-nav-filter").ready(function () {
+            UpdateAllSelectedFilters();
+        });
+
+    </script>
+	<div id="id-assist-nav">
+        <form id="id-filters-collection" name="id-filters-collection">
+            
+            <input id="id_url_filters_to_enable" value="../Online/InventorySearch.aspx/GetSearchCategoryValuesToEnable" type="hidden" />
+            <input id="id_url_target_configs" value="../Online/InventorySearch.aspx/GetFilteredPrimaryConfigs" type="hidden" />
+            <input id="id_pre_sel_families" value="" type="hidden" />
+            <input id="id_has_loaded" value="false" type="hidden" />
+
+		    <div class="fl-filter-caption">
+			    <span class="fl-filter-head">Refine your search:</span>
+			    <span id="id-selectedRefinements"></span>
+                <a class="fl-selectedFilter" id="id-clear-all-refines" onclick="javascript:RemoveAllFilters();">Clear All</a>
+		    </div>
+            
+                    <div class="fl-search-cats-section">
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_CI' title="Condition">
+                                <span class="fl-filter-display">Condition</span>
+                                <span filcount="CI"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_CI'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='SA' cat='CI'>
+							                <input type="checkbox"  id='SA' txt='Certified Refurbished' class="fl-dummy-check" name='CI' value='SA'/>
+                                            <span class="fl-menu-text">Certified Refurbished</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='SD' cat='CI'>
+							                <input type="checkbox"  id='SD' txt='Scratch &amp; Dent' class="fl-dummy-check" name='CI' value='SD'/>
+                                            <span class="fl-menu-text">Scratch &amp; Dent</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='PC' cat='CI'>
+							                <input type="checkbox"  id='PC' txt='New' class="fl-dummy-check" name='CI' value='PC'/>
+                                            <span class="fl-menu-text">New</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_FN' title="Model">
+                                <span class="fl-filter-display">Model</span>
+                                <span filcount="FN"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_FN'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='110987' cat='FN'>
+							                <input type="checkbox"  id='110987' txt='Chromebook 11 - 3120' class="fl-dummy-check" name='FN' value='110987'/>
+                                            <span class="fl-menu-text">Chromebook 11 - 3120</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='20051' cat='FN'>
+							                <input type="checkbox"  id='20051' txt='Chromebook 11 - 3180' class="fl-dummy-check" name='FN' value='20051'/>
+                                            <span class="fl-menu-text">Chromebook 11 - 3180</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='119098' cat='FN'>
+							                <input type="checkbox"  id='119098' txt='Inspiron 11 - 3157' class="fl-dummy-check" name='FN' value='119098'/>
+                                            <span class="fl-menu-text">Inspiron 11 - 3157</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='119870' cat='FN'>
+							                <input type="checkbox"  id='119870' txt='Inspiron 11 - 3162' class="fl-dummy-check" name='FN' value='119870'/>
+                                            <span class="fl-menu-text">Inspiron 11 - 3162</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111158' cat='FN'>
+							                <input type="checkbox"  id='111158' txt='Inspiron 11” 3000 (3168) 2-in-1' class="fl-dummy-check" name='FN' value='111158'/>
+                                            <span class="fl-menu-text">Inspiron 11” 3000 (3168) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111159' cat='FN'>
+							                <input type="checkbox"  id='111159' txt='Inspiron 11” 3000 (3169) 2-in-1' class="fl-dummy-check" name='FN' value='111159'/>
+                                            <span class="fl-menu-text">Inspiron 11” 3000 (3169) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='20008' cat='FN'>
+							                <input type="checkbox"  id='20008' txt='Inspiron 11” 3000 (3179) 2-in-1' class="fl-dummy-check" name='FN' value='20008'/>
+                                            <span class="fl-menu-text">Inspiron 11” 3000 (3179) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='11116' cat='FN'>
+							                <input type="checkbox"  id='11116' txt='Inspiron 13 - 7359' class="fl-dummy-check" name='FN' value='11116'/>
+                                            <span class="fl-menu-text">Inspiron 13 - 7359</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111162' cat='FN'>
+							                <input type="checkbox"  id='111162' txt='Inspiron 13” 5000 (5368) 2-in-1' class="fl-dummy-check" name='FN' value='111162'/>
+                                            <span class="fl-menu-text">Inspiron 13” 5000 (5368) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111196' cat='FN'>
+							                <input type="checkbox"  id='111196' txt='Inspiron 13” 5000 (5378) 2-in-1' class="fl-dummy-check" name='FN' value='111196'/>
+                                            <span class="fl-menu-text">Inspiron 13” 5000 (5378) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111192' cat='FN'>
+							                <input type="checkbox"  id='111192' txt='Inspiron 13” 7000 (7378) 2-in-1' class="fl-dummy-check" name='FN' value='111192'/>
+                                            <span class="fl-menu-text">Inspiron 13” 7000 (7378) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='11903' cat='FN'>
+							                <input type="checkbox"  id='11903' txt='Inspiron 14 - 3452' class="fl-dummy-check" name='FN' value='11903'/>
+                                            <span class="fl-menu-text">Inspiron 14 - 3452</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='11092' cat='FN'>
+							                <input type="checkbox"  id='11092' txt='Inspiron 14 - 5458' class="fl-dummy-check" name='FN' value='11092'/>
+                                            <span class="fl-menu-text">Inspiron 14 - 5458</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='11118' cat='FN'>
+							                <input type="checkbox"  id='11118' txt='Inspiron 15 - 3552' class="fl-dummy-check" name='FN' value='11118'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 3552</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111112' cat='FN'>
+							                <input type="checkbox"  id='111112' txt='Inspiron 15 - 3555' class="fl-dummy-check" name='FN' value='111112'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 3555</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111109' cat='FN'>
+							                <input type="checkbox"  id='111109' txt='Inspiron 15 - 3558' class="fl-dummy-check" name='FN' value='111109'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 3558</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='110934' cat='FN'>
+							                <input type="checkbox"  id='110934' txt='Inspiron 15 - 5555' class="fl-dummy-check" name='FN' value='110934'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 5555</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='11090' cat='FN'>
+							                <input type="checkbox"  id='11090' txt='Inspiron 15 - 5558' class="fl-dummy-check" name='FN' value='11090'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 5558</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111059' cat='FN'>
+							                <input type="checkbox"  id='111059' txt='Inspiron 15 - 5559' class="fl-dummy-check" name='FN' value='111059'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 5559</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='110666' cat='FN'>
+							                <input type="checkbox"  id='110666' txt='Inspiron 15 - 7559' class="fl-dummy-check" name='FN' value='110666'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 7559</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111066' cat='FN'>
+							                <input type="checkbox"  id='111066' txt='Inspiron 15 - 7568' class="fl-dummy-check" name='FN' value='111066'/>
+                                            <span class="fl-menu-text">Inspiron 15 - 7568</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='200017' cat='FN'>
+							                <input type="checkbox"  id='200017' txt='Inspiron 15” 3000 (3567)' class="fl-dummy-check" name='FN' value='200017'/>
+                                            <span class="fl-menu-text">Inspiron 15” 3000 (3567)</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='200006' cat='FN'>
+							                <input type="checkbox"  id='200006' txt='Inspiron 15” 5000 (5565)' class="fl-dummy-check" name='FN' value='200006'/>
+                                            <span class="fl-menu-text">Inspiron 15” 5000 (5565)</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='200000' cat='FN'>
+							                <input type="checkbox"  id='200000' txt='Inspiron 15” 5000 (5567)' class="fl-dummy-check" name='FN' value='200000'/>
+                                            <span class="fl-menu-text">Inspiron 15” 5000 (5567)</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111164' cat='FN'>
+							                <input type="checkbox"  id='111164' txt='Inspiron 15” 5000 (5568) 2-in-1' class="fl-dummy-check" name='FN' value='111164'/>
+                                            <span class="fl-menu-text">Inspiron 15” 5000 (5568) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111167' cat='FN'>
+							                <input type="checkbox"  id='111167' txt='Inspiron 15” 5000 (5578) 2-in-1' class="fl-dummy-check" name='FN' value='111167'/>
+                                            <span class="fl-menu-text">Inspiron 15” 5000 (5578) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='2012' cat='FN'>
+							                <input type="checkbox"  id='2012' txt='Inspiron 15” 7000 (7567)' class="fl-dummy-check" name='FN' value='2012'/>
+                                            <span class="fl-menu-text">Inspiron 15” 7000 (7567)</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111084' cat='FN'>
+							                <input type="checkbox"  id='111084' txt='Inspiron 15” 7000 (7579) 2-in-1' class="fl-dummy-check" name='FN' value='111084'/>
+                                            <span class="fl-menu-text">Inspiron 15” 7000 (7579) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='11117' cat='FN'>
+							                <input type="checkbox"  id='11117' txt='Inspiron 17 - 5759' class="fl-dummy-check" name='FN' value='11117'/>
+                                            <span class="fl-menu-text">Inspiron 17 - 5759</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='200004' cat='FN'>
+							                <input type="checkbox"  id='200004' txt='Inspiron 17” 5000 (5765)' class="fl-dummy-check" name='FN' value='200004'/>
+                                            <span class="fl-menu-text">Inspiron 17” 5000 (5765)</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111203' cat='FN'>
+							                <input type="checkbox"  id='111203' txt='Inspiron 17” 5000 (5767)' class="fl-dummy-check" name='FN' value='111203'/>
+                                            <span class="fl-menu-text">Inspiron 17” 5000 (5767)</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='111191' cat='FN'>
+							                <input type="checkbox"  id='111191' txt='Inspiron 17” 7000 (7779) 2-in-1' class="fl-dummy-check" name='FN' value='111191'/>
+                                            <span class="fl-menu-text">Inspiron 17” 7000 (7779) 2-in-1</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='200001' cat='FN'>
+							                <input type="checkbox"  id='200001' txt='XPS 13 - 9360' class="fl-dummy-check" name='FN' value='200001'/>
+                                            <span class="fl-menu-text">XPS 13 - 9360</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='2015' cat='FN'>
+							                <input type="checkbox"  id='2015' txt='XPS 13 - 9365 2-in-1' class="fl-dummy-check" name='FN' value='2015'/>
+                                            <span class="fl-menu-text">XPS 13 - 9365 2-in-1</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_STHCL' title="Touch Screen">
+                                <span class="fl-filter-display">Touch Screen</span>
+                                <span filcount="STHCL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_STHCL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='62000' cat='STHCL'>
+							                <input type="checkbox"  id='62000' txt='Touch' class="fl-dummy-check" name='STHCL' value='62000'/>
+                                            <span class="fl-menu-text">Touch</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='95006' cat='STHCL'>
+							                <input type="checkbox"  id='95006' txt='Non-Touch' class="fl-dummy-check" name='STHCL' value='95006'/>
+                                            <span class="fl-menu-text">Non-Touch</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SPRCL' title="Processor">
+                                <span class="fl-filter-display">Processor</span>
+                                <span filcount="SPRCL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SPRCL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='53008' cat='SPRCL'>
+							                <input type="checkbox"  id='53008' txt='4th Gen Intel Core i3' class="fl-dummy-check" name='SPRCL' value='53008'/>
+                                            <span class="fl-menu-text">4th Gen Intel Core i3</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='60016' cat='SPRCL'>
+							                <input type="checkbox"  id='60016' txt='AMD' class="fl-dummy-check" name='SPRCL' value='60016'/>
+                                            <span class="fl-menu-text">AMD</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='63000' cat='SPRCL'>
+							                <input type="checkbox"  id='63000' txt='Intel Celeron' class="fl-dummy-check" name='SPRCL' value='63000'/>
+                                            <span class="fl-menu-text">Intel Celeron</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='63001' cat='SPRCL'>
+							                <input type="checkbox"  id='63001' txt='Intel Pentium' class="fl-dummy-check" name='SPRCL' value='63001'/>
+                                            <span class="fl-menu-text">Intel Pentium</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='84015' cat='SPRCL'>
+							                <input type="checkbox"  id='84015' txt='5th Gen Intel Core i3' class="fl-dummy-check" name='SPRCL' value='84015'/>
+                                            <span class="fl-menu-text">5th Gen Intel Core i3</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='84016' cat='SPRCL'>
+							                <input type="checkbox"  id='84016' txt='5th Gen Intel Core i5' class="fl-dummy-check" name='SPRCL' value='84016'/>
+                                            <span class="fl-menu-text">5th Gen Intel Core i5</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='84017' cat='SPRCL'>
+							                <input type="checkbox"  id='84017' txt='5th Gen Intel Core i7' class="fl-dummy-check" name='SPRCL' value='84017'/>
+                                            <span class="fl-menu-text">5th Gen Intel Core i7</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='87006' cat='SPRCL'>
+							                <input type="checkbox"  id='87006' txt='6th Gen Intel Core i3' class="fl-dummy-check" name='SPRCL' value='87006'/>
+                                            <span class="fl-menu-text">6th Gen Intel Core i3</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='87007' cat='SPRCL'>
+							                <input type="checkbox"  id='87007' txt='6th Gen Intel Core i5' class="fl-dummy-check" name='SPRCL' value='87007'/>
+                                            <span class="fl-menu-text">6th Gen Intel Core i5</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='87008' cat='SPRCL'>
+							                <input type="checkbox"  id='87008' txt='6th Gen Intel Core i7' class="fl-dummy-check" name='SPRCL' value='87008'/>
+                                            <span class="fl-menu-text">6th Gen Intel Core i7</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='100014' cat='SPRCL'>
+							                <input type="checkbox"  id='100014' txt='6th Gen Intel Core M3' class="fl-dummy-check" name='SPRCL' value='100014'/>
+                                            <span class="fl-menu-text">6th Gen Intel Core M3</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='104015' cat='SPRCL'>
+							                <input type="checkbox"  id='104015' txt='7th Gen Intel Core i3' class="fl-dummy-check" name='SPRCL' value='104015'/>
+                                            <span class="fl-menu-text">7th Gen Intel Core i3</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='104016' cat='SPRCL'>
+							                <input type="checkbox"  id='104016' txt='7th Gen Intel Core i5' class="fl-dummy-check" name='SPRCL' value='104016'/>
+                                            <span class="fl-menu-text">7th Gen Intel Core i5</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='104017' cat='SPRCL'>
+							                <input type="checkbox"  id='104017' txt='7th Gen Intel Core i7' class="fl-dummy-check" name='SPRCL' value='104017'/>
+                                            <span class="fl-menu-text">7th Gen Intel Core i7</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='104027' cat='SPRCL'>
+							                <input type="checkbox"  id='104027' txt='7th Gen Intel Core M3' class="fl-dummy-check" name='SPRCL' value='104027'/>
+                                            <span class="fl-menu-text">7th Gen Intel Core M3</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime fl-margin-rgt-zero">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SMECL' title="Memory">
+                                <span class="fl-filter-display">Memory</span>
+                                <span filcount="SMECL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SMECL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50095' cat='SMECL'>
+							                <input type="checkbox"  id='50095' txt='Less than 4GB' class="fl-dummy-check" name='SMECL' value='50095'/>
+                                            <span class="fl-menu-text">Less than 4GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50096' cat='SMECL'>
+							                <input type="checkbox"  id='50096' txt='4GB' class="fl-dummy-check" name='SMECL' value='50096'/>
+                                            <span class="fl-menu-text">4GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50097' cat='SMECL'>
+							                <input type="checkbox"  id='50097' txt='6GB' class="fl-dummy-check" name='SMECL' value='50097'/>
+                                            <span class="fl-menu-text">6GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50098' cat='SMECL'>
+							                <input type="checkbox"  id='50098' txt='8GB' class="fl-dummy-check" name='SMECL' value='50098'/>
+                                            <span class="fl-menu-text">8GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50099' cat='SMECL'>
+							                <input type="checkbox"  id='50099' txt='12GB &amp; up' class="fl-dummy-check" name='SMECL' value='50099'/>
+                                            <span class="fl-menu-text">12GB &amp; up</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='120014' cat='SMECL'>
+							                <input type="checkbox"  id='120014' txt='16GB &amp; up' class="fl-dummy-check" name='SMECL' value='120014'/>
+                                            <span class="fl-menu-text">16GB &amp; up</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='132009' cat='SMECL'>
+							                <input type="checkbox"  id='132009' txt='up to 32GB' class="fl-dummy-check" name='SMECL' value='132009'/>
+                                            <span class="fl-menu-text">up to 32GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='133020' cat='SMECL'>
+							                <input type="checkbox"  id='133020' txt='up to 4GB' class="fl-dummy-check" name='SMECL' value='133020'/>
+                                            <span class="fl-menu-text">up to 4GB</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SOSCL' title="Operating System">
+                                <span class="fl-filter-display">Operating System</span>
+                                <span filcount="SOSCL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SOSCL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='77007' cat='SOSCL'>
+							                <input type="checkbox"  id='77007' txt='Chrome OS' class="fl-dummy-check" name='SOSCL' value='77007'/>
+                                            <span class="fl-menu-text">Chrome OS</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='91006' cat='SOSCL'>
+							                <input type="checkbox"  id='91006' txt='Windows 10 Home' class="fl-dummy-check" name='SOSCL' value='91006'/>
+                                            <span class="fl-menu-text">Windows 10 Home</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='91007' cat='SOSCL'>
+							                <input type="checkbox"  id='91007' txt='Windows 10 Pro' class="fl-dummy-check" name='SOSCL' value='91007'/>
+                                            <span class="fl-menu-text">Windows 10 Pro</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SVICL' title="Video">
+                                <span class="fl-filter-display">Video</span>
+                                <span filcount="SVICL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SVICL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50008' cat='SVICL'>
+							                <input type="checkbox"  id='50008' txt='NVIDIA' class="fl-dummy-check" name='SVICL' value='50008'/>
+                                            <span class="fl-menu-text">NVIDIA</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='50010' cat='SVICL'>
+							                <input type="checkbox"  id='50010' txt='Intel Integrated' class="fl-dummy-check" name='SVICL' value='50010'/>
+                                            <span class="fl-menu-text">Intel Integrated</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='53036' cat='SVICL'>
+							                <input type="checkbox"  id='53036' txt='AMD' class="fl-dummy-check" name='SVICL' value='53036'/>
+                                            <span class="fl-menu-text">AMD</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SKBBL' title="Features">
+                                <span class="fl-filter-display">Features</span>
+                                <span filcount="SKBBL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SKBBL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='58000' cat='SKBBL'>
+							                <input type="checkbox"  id='58000' txt='Backlit Keyboard' class="fl-dummy-check" name='SKBBL' value='58000'/>
+                                            <span class="fl-menu-text">Backlit Keyboard</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='58001' cat='SKBBL'>
+							                <input type="checkbox"  id='58001' txt='Webcam' class="fl-dummy-check" name='SKBBL' value='58001'/>
+                                            <span class="fl-menu-text">Webcam</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='58002' cat='SKBBL'>
+							                <input type="checkbox"  id='58002' txt='Bluetooth' class="fl-dummy-check" name='SKBBL' value='58002'/>
+                                            <span class="fl-menu-text">Bluetooth</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SBACL' title="Battery">
+                                <span class="fl-filter-display">Battery</span>
+                                <span filcount="SBACL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SBACL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='78006' cat='SBACL'>
+							                <input type="checkbox"  id='78006' txt='2 Cell' class="fl-dummy-check" name='SBACL' value='78006'/>
+                                            <span class="fl-menu-text">2 Cell</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='51000' cat='SBACL'>
+							                <input type="checkbox"  id='51000' txt='3 Cell' class="fl-dummy-check" name='SBACL' value='51000'/>
+                                            <span class="fl-menu-text">3 Cell</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='51002' cat='SBACL'>
+							                <input type="checkbox"  id='51002' txt='6 Cell' class="fl-dummy-check" name='SBACL' value='51002'/>
+                                            <span class="fl-menu-text">6 Cell</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime fl-margin-rgt-zero">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SHSCL' title="Hard Drive Size">
+                                <span class="fl-filter-display">Hard Drive Size</span>
+                                <span filcount="SHSCL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SHSCL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='55027' cat='SHSCL'>
+							                <input type="checkbox"  id='55027' txt='500GB - 600GB' class="fl-dummy-check" name='SHSCL' value='55027'/>
+                                            <span class="fl-menu-text">500GB - 600GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='55029' cat='SHSCL'>
+							                <input type="checkbox"  id='55029' txt='1TB &amp; up' class="fl-dummy-check" name='SHSCL' value='55029'/>
+                                            <span class="fl-menu-text">1TB &amp; up</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='55030' cat='SHSCL'>
+							                <input type="checkbox"  id='55030' txt='Solid State Drive' class="fl-dummy-check" name='SHSCL' value='55030'/>
+                                            <span class="fl-menu-text">Solid State Drive</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='77003' cat='SHSCL'>
+							                <input type="checkbox"  id='77003' txt='512GB' class="fl-dummy-check" name='SHSCL' value='77003'/>
+                                            <span class="fl-menu-text">512GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='121013' cat='SHSCL'>
+							                <input type="checkbox"  id='121013' txt='Up to 250GB' class="fl-dummy-check" name='SHSCL' value='121013'/>
+                                            <span class="fl-menu-text">Up to 250GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='121014' cat='SHSCL'>
+							                <input type="checkbox"  id='121014' txt='256GB' class="fl-dummy-check" name='SHSCL' value='121014'/>
+                                            <span class="fl-menu-text">256GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='121015' cat='SHSCL'>
+							                <input type="checkbox"  id='121015' txt='Up to 64GB' class="fl-dummy-check" name='SHSCL' value='121015'/>
+                                            <span class="fl-menu-text">Up to 64GB</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='120019' cat='SHSCL'>
+							                <input type="checkbox"  id='120019' txt='128GB' class="fl-dummy-check" name='SHSCL' value='120019'/>
+                                            <span class="fl-menu-text">128GB</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SSSCL' title="Screen Size">
+                                <span class="fl-filter-display">Screen Size</span>
+                                <span filcount="SSSCL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SSSCL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56009' cat='SSSCL'>
+							                <input type="checkbox"  id='56009' txt='11 inch &amp; smaller' class="fl-dummy-check" name='SSSCL' value='56009'/>
+                                            <span class="fl-menu-text">11 inch &amp; smaller</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56010' cat='SSSCL'>
+							                <input type="checkbox"  id='56010' txt='12 inch - 14 inch' class="fl-dummy-check" name='SSSCL' value='56010'/>
+                                            <span class="fl-menu-text">12 inch - 14 inch</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56011' cat='SSSCL'>
+							                <input type="checkbox"  id='56011' txt='15 inch - 16 inch' class="fl-dummy-check" name='SSSCL' value='56011'/>
+                                            <span class="fl-menu-text">15 inch - 16 inch</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56012' cat='SSSCL'>
+							                <input type="checkbox"  id='56012' txt='17 inch - 18 inch' class="fl-dummy-check" name='SSSCL' value='56012'/>
+                                            <span class="fl-menu-text">17 inch - 18 inch</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='121006' cat='SSSCL'>
+							                <input type="checkbox"  id='121006' txt='11 inch - 12 inch' class="fl-dummy-check" name='SSSCL' value='121006'/>
+                                            <span class="fl-menu-text">11 inch - 12 inch</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+			            <div class="fl-search-cat fl-prime ">
+				            <a type="button" class="fl-filter-select" for='#search_cat_SSRCL' title="Screen Resolution">
+                                <span class="fl-filter-display">Screen Resolution</span>
+                                <span filcount="SSRCL"></span>
+				            </a>
+                            
+                                    <ul class="fl-dropdown-menu" id='search_cat_SSRCL'>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56002' cat='SSRCL'>
+							                <input type="checkbox"  id='56002' txt='1366 x 768' class="fl-dummy-check" name='SSRCL' value='56002'/>
+                                            <span class="fl-menu-text">1366 x 768</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56003' cat='SSRCL'>
+							                <input type="checkbox"  id='56003' txt='1600 x 900' class="fl-dummy-check" name='SSRCL' value='56003'/>
+                                            <span class="fl-menu-text">1600 x 900</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='56004' cat='SSRCL'>
+							                <input type="checkbox"  id='56004' txt='1920 x 1080' class="fl-dummy-check" name='SSRCL' value='56004'/>
+                                            <span class="fl-menu-text">1920 x 1080</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='68001' cat='SSRCL'>
+							                <input type="checkbox"  id='68001' txt='3200 x 1800' class="fl-dummy-check" name='SSRCL' value='68001'/>
+                                            <span class="fl-menu-text">3200 x 1800</span>
+						                </a>
+					                </li>
+                                
+					                <li>
+						                <a class="fl-filter-item" active="true" for='89006' cat='SSRCL'>
+							                <input type="checkbox"  id='89006' txt='3840 x 2160' class="fl-dummy-check" name='SSRCL' value='89006'/>
+                                            <span class="fl-menu-text">3840 x 2160</span>
+						                </a>
+					                </li>
+                                
+                                    </ul>
+                                
+			            </div>
+                
+                    </div>
+                
+        </form>
+	</div>
+    <div class="fl-ref-template">
+        <span class="fl-sel-fil-cont" sel="ID_TAR_TEXT">
+            <a class="fl-selectedFilter" tar="ID_TAR_TEXT" onclick="javascript:RemoveSelectedFilter($(this))">ID_TAR_DISPLAY<span class="fl-remove-circle"></span></a>|
+        </span>
+    </div>
+    <div class="fl-clear"></div>
+</div>
+
+
+                <div id="id-configs-host">
+            
+
+<script src="../Scripts/CTMLibrary.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+
+    function LoadCtmObject() {
+
+        var cseg = GetQueryStringValue('cs');
+        var lang = GetQueryStringValue('l');
+        var country = GetQueryStringValue('c');
+
+        MasterTmsUdo = {
+
+            "CJ": {
+
+                "CID": "",
+                "TYPE": "",
+                "DISCOUNT": "",
+                "OGID": "",
+                "CURRENCY": 'USD',
+                "COUPON": "",
+                "CSEG": cseg,
+                "SEG": 'DFH',
+                "PRODCAT": "",
+                "COUNTRY": country,
+                "LANG": lang != '' ? lang : 'EN',
+                "REVENUE": "",
+                "DEVICE": "D",
+                "PLATFORM": 'systems',
+                "PROMOID": "",
+                "CATEGORY": 'Laptops',
+                "DEALS": "",
+                "FAMILY": GetFamilyNames(),
+                "PRODUCT": GetFamilyNames(),
+                "ORDERCODE": "",
+                "ACCOUNTID": "",
+                "EMAILHASH": "",
+                "PRODUCTLIST": ""
+
+            }
+        };
+    }
+
+    function CallCtmContainer() {
+        //CTM CONTAINER SHOULD GO HERE, BELOW THE UDO    
+        (function (e) { var t = "773", n = document, r, i, s = { http: "http://cdn.mplxtms.com/s/MasterTMS.min.js", https: "https://secure-cdn.mplxtms.com/s/MasterTMS.min.js" }, o = s[/\w+/.exec(window.location.protocol)[0]]; i = n.createElement("script"), i.type = "text/javascript", i.async = !0, i.src = o + "#" + t, r = n.getElementsByTagName("script")[0], r.parentNode.insertBefore(i, r), i.readyState ? i.onreadystatechange = function () { if (i.readyState === "loaded" || i.readyState === "complete") i.onreadystatechange = null } : i.onload = function () { try { e() } catch (t) { } } })(function () { });
+    }
+
+    $(document).ready(function () {
+
+        LoadCtmObject();
+        CallCtmContainer();
+    });
+</script>
+
+<div id="config-section-start">
+    <div><div id="id_config_progress"></div></div>
+    <script>
+        $("#config-section-start").ready(function () {
+            //Initialize Pagination
+            InitializePaginations();
+            //Initialize Sort Select Control
+            InititalizeSortControl("#id_select_ctrl");
+            //Now set all the configs to same height
+            SetConfigsSameHeight();
+        });
+
+    </script>
+    
+
+<div id="paginate" class="fl-pagin-container">
+    <div id="id-page-buttons" class="fl-right-fix">
+        <span class="fl-viewing">Viewing 1-8 of 273</span>
+        <a class='fl-page-button-disable' page="1">Previous</a>
+        <a class='fl-page-button' page="2">Next</a>
+        <div class="fl-sort-ctl">
+            <span class="fl-sort-cap">Sort:</span>
+            <span class="fl-select-ctrl" id="id_select_ctrl">
+                <a type="button" class="fl-select-caption" for="#fl-opts" id="id_disp">Lowest Price</a>
+                <ul id="fl-opts">
+					<li><a for="#id_disp" val="bestResult">Best Results</a></li>
+					<li><a for="#id_disp" val="lowToHigh">Lowest Price</a></li>
+					<li><a for="#id_disp" val="highToLow">Highest Price</a></li>
+				</ul>
+            </span>
+		</div>
+    </div>
+
+    <form id="id-pagin-form" name="id-pagin-form">
+        <input type="hidden" id="id_sort_option" name="SC" value="lowToHigh" />
+        <input type="hidden" id="id_current_page" name="CP" value="1" />
+    </form>
+</div>
+<div class="fl-clear"></div>
+
+    
+
+<div class="fl-config-sec" id="configurations">
+
+        <form id="id_url_form" name="id_url_form">
+            <input type="hidden" id="id_data_sign" name="id_data_sign" value="PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguURLaJoRyxGFAAq1xpbfSjG1GlcsxQpPErqBtXX3h847m780lmefBlU23dWjRa6sJ1uNGwAcQgeHstW2hyXzBDbOmcAcXQA4a96dKttZ29%2b%2bluOkQnc2cMktzxAACqC0X2t9pVzyv4zqydWmeAKCFs24ts6a4iE2ARh6ZVR0Yz7k3E%2f3ErVjsQkNE7kvZdfDJfRRgbH93pghvIleqjBowEsmrBH0luKTN"/>
+            <input type="hidden" id="id_updated_url" name="id_updated_url" value="http://outlet.us.dell.com/ArbOnlineSales/Online/InventorySearch.aspx?c=us&amp;cs=22&amp;l=en&amp;s=dfh&amp;brandid=2201&amp;sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguURLaJoRyxGFAAq1xpbfSjG1GlcsxQpPErqBtXX3h847m780lmefBlU23dWjRa6sJ1uNGwAcQgeHstW2hyXzBDbOmcAcXQA4a96dKttZ29%2b%2bluOkQnc2cMktzxAACqC0X2t9pVzyv4zqydWmeAKCFs24ts6a4iE2ARh6ZVR0Yz7k3E%2f3ErVjsQkNE7kvZdfDJfRRgbH93pghvIleqjBowEsmrBH0luKTN"/>
+        </form>
+    
+
+    
+
+    <div class=" fl-pad-lft-0">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQWfq9FnFx3pBebLsBTFMeQBWnABjww1z5e8N9ibLEE72C0O8T0xqvqwSSCJhdoRajsLgprCM8Jw%2fsK73QIMrBaaies0pViEt0uaY%2bEOM0zYUafVE6LKLfKQ%3d%3d">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Inspiron_11_3000_3168_MultiColor.jpeg' alt='Inspiron 11” 3000 (3168) 2-in-1' title='Inspiron 11” 3000 (3168) 2-in-1'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQWfq9FnFx3pBebLsBTFMeQBWnABjww1z5e8N9ibLEE72C0O8T0xqvqwSSCJhdoRajsLgprCM8Jw%2fsK73QIMrBaaies0pViEt0uaY%2bEOM0zYUafVE6LKLfKQ%3d%3d">
+                        Inspiron 11” 3000 (3168) 2-in-1<br/>$109.00
+                    </a>
+                </h4>
+                <span>1 in stock</span>
+            </li>
+            <li>
+                <div class="fl-item-condition">Scratch & Dent</div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Windows 10 Home 64bit English</div>
+                        
+                                <div>32 GB eMMC Hard Drive</div>
+                        
+                                <div>2GB DDR3 Memory</div>
+                        
+                                <div>11.6 inch HD (1366 x 768) LED-Backlit Touch Display</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Free Shipping Included</div>
+                        
+                                <div>Red - LCD Back Cover (Touch Screen)</div>
+                        
+                                <div>Dell Outlet Inspiron 11 - 3168 2-in-1 Laptop</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$109.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="Handler/SecondaryLikeConfigHandler.ashx?c=us&cs=22&l=en&s=dfh&sign=Y7fFjJU3gZkK%2bk%2bQ8GEOhvXSVPOd7XCg4iLXrCklX%2brGRzMQs64WwKsk%2bUgIlzuf0vjNo8NKaF6akmzSsF3nB2iAe2kG06a1kyD22%2b5O00ssKAwynSAdBYdYaSHqTXjdCz11w1YJqnnzej2MnzSss8jf0yk10W7C%2bJMdQNIGiaDhtAo2BKlJzhdJ4OJj1fTUlX1QZ8Y4cI8WnqgkBk3pvRnrmcBFbACVhUXyjnYixj%2bAIfiJ2PoGuhMnvuuYTF72NPVh5EGTW%2bLDgYc0a6sY7VBTuuQ1lhr3TgC1nEl%2f9nBzB0jDXXQBlw%3d%3d" class="fl-link-button">Add to Cart</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    
+
+    <div class=" ">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV0xiiqVkBLtdTyuQLbiriISh8D6gn0WVd4x%2f5QBUB34qZJC3uS%2fodiTp7IKcumK43HKfJa57r79vYixXF2cbgY3">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Inspiron_11_3162_Color_Montage.jpg' alt='Inspiron 11 - 3162' title='Inspiron 11 - 3162'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV0xiiqVkBLtdTyuQLbiriISh8D6gn0WVd4x%2f5QBUB34qZJC3uS%2fodiTp7IKcumK43HKfJa57r79vYixXF2cbgY3">
+                        Inspiron 11 - 3162<br/>$149.00
+                    </a>
+                </h4>
+                <span>3 in stock</span>
+            </li>
+            <li>
+                <div class="fl-item-condition"></div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Windows 10 Home 64bit English</div>
+                        
+                                <div>32 GB eMMC Hard Drive</div>
+                        
+                                <div>2GB DDR3 Memory</div>
+                        
+                                <div>11.6 inch HD (1366x768) Anti-Glare LED- Backlit Laptop Screen</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Free Shipping Included</div>
+                        
+                                <div>Red - LCD Back Cover</div>
+                        
+                                <div>Dell Outlet Inspiron 11 - 3162</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$149.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV0xiiqVkBLtdTyuQLbiriISh8D6gn0WVd4x%2f5QBUB34qZJC3uS%2fodiTp7IKcumK43HKfJa57r79vYixXF2cbgY3" class="fl-link-button">View All Configurations</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    
+
+    <div class=" ">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV1OBe0%2blmC5y3UVGWvWn7qH5YpNgPbe6bkNJw%2fJAjOwwUl6vEiZ2vNrjfRUDxyPVYcsow3Wvt%2f6GFw22rotLIQG">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Inspiron_11_3162_Color_Montage.jpg' alt='Inspiron 11 - 3162' title='Inspiron 11 - 3162'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV1OBe0%2blmC5y3UVGWvWn7qH5YpNgPbe6bkNJw%2fJAjOwwUl6vEiZ2vNrjfRUDxyPVYcsow3Wvt%2f6GFw22rotLIQG">
+                        Inspiron 11 - 3162<br/>$149.00
+                    </a>
+                </h4>
+                <span></span>
+            </li>
+            <li>
+                <div class="fl-item-condition"></div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Windows 10 Home 64bit English</div>
+                        
+                                <div>32 GB eMMC Hard Drive</div>
+                        
+                                <div>2GB DDR3 Memory</div>
+                        
+                                <div>11.6 inch HD (1366x768) Anti-Glare LED- Backlit Laptop Screen</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Free Shipping Included</div>
+                        
+                                <div>Blue - LCD Back Cover</div>
+                        
+                                <div>Dell Outlet Inspiron 11 - 3162</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$149.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV1OBe0%2blmC5y3UVGWvWn7qH5YpNgPbe6bkNJw%2fJAjOwwUl6vEiZ2vNrjfRUDxyPVYcsow3Wvt%2f6GFw22rotLIQG" class="fl-link-button">View All Configurations</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    
+
+    <div class="fl-pad-rgt-0 ">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV03HMSp6ynM3I7lGjopgrMRPfGxU1ClsqYkxp44gvg037%2fTpOh9pY6hv1XJpQlvm7W8vIqEX4Bw9g%3d%3d">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Inspiron_11_3162_Color_Montage.jpg' alt='Inspiron 11 - 3162' title='Inspiron 11 - 3162'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfX%2fB2Wpl91vJbvuO6e1GXvjQDSGw27A%2fSQi5OocWmgTHRJ1b9toCpF6qNGPbnNzxscY%2f9MwLG2NV03HMSp6ynM3I7lGjopgrMRPfGxU1ClsqYkxp44gvg037%2fTpOh9pY6hv1XJpQlvm7W8vIqEX4Bw9g%3d%3d">
+                        Inspiron 11 - 3162<br/>$149.00
+                    </a>
+                </h4>
+                <span>1 in stock</span>
+            </li>
+            <li>
+                <div class="fl-item-condition">Certified Refurbished</div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Windows 10 Home 64bit English</div>
+                        
+                                <div>32 GB eMMC Hard Drive</div>
+                        
+                                <div>2GB DDR3 Memory</div>
+                        
+                                <div>11.6 inch HD (1366x768) Anti-Glare LED- Backlit Laptop Screen</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Free Shipping Included</div>
+                        
+                                <div>White - LCD Back Cover</div>
+                        
+                                <div>Dell Outlet Inspiron 11 - 3162</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$149.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="Handler/SecondaryLikeConfigHandler.ashx?c=us&cs=22&l=en&s=dfh&sign=1HyE77F6%2b73LQdxQyZCOjYFyuCXWJgQGpFfG6aE3canEGar2vjScmgiuzOLemXf1UdfDYa0r8OB%2fpG1%2ftdy9akSQS6YDIRYqS6ux7cP%2booVAq9DL7Ec%2fWZo4hj8L6Ebd3JQAijT4UAu%2fVfjsS01gJWjTogysVOpyUBVMHSXwQdQgXFWxQhK3DD0qOt6NNm7yLRZ5vjD%2b9RlJXB1kiwNOfg%2fJMwsmsPnWlwWsPxDFTXFJUvz5x9nFx0EmNfnijBxfeUh%2fU6VYumav2m6fEaJZx4cmlqmH4lwXvHD01JDYYFTSh9dSXdyN%2bw%3d%3d" class="fl-link-button">Add to Cart</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    <div class='fl-ht65'></div>
+
+    <div class=" fl-pad-lft-0">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYsz63UO%2br7wSJ10bTsTIJAJHp5BpJBu117VCHEZKuQeTCjIiRDvLPHGAjaaROCMosnEbpDAVay%2b2fjAeCXlrfoPbVoCa2mDsKDorpYUAHoSmmbRrTBGLayLTe4J1f1243MQmfkBFVx1T6WJybMJ00A4%3d">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg' alt='Chromebook 11 - 3180' title='Chromebook 11 - 3180'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYsz63UO%2br7wSJ10bTsTIJAJHp5BpJBu117VCHEZKuQeTCjIiRDvLPHGAjaaROCMosnEbpDAVay%2b2fjAeCXlrfoPbVoCa2mDsKDorpYUAHoSmmbRrTBGLayLTe4J1f1243MQmfkBFVx1T6WJybMJ00A4%3d">
+                        Chromebook 11 - 3180<br/>$169.00
+                    </a>
+                </h4>
+                <span>4 in stock</span>
+            </li>
+            <li>
+                <div class="fl-item-condition"></div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Chrome OS</div>
+                        
+                                <div>16GB eMMC Hard Drive</div>
+                        
+                                <div>2GB DDR3 Memory</div>
+                        
+                                <div>11.6 inch HD(1366x768) LCD</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Black - LCD Back Cover (Non-Touch Screen)</div>
+                        
+                                <div>Dell Outlet Chromebook 11 - 3180</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$169.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYsz63UO%2br7wSJ10bTsTIJAJHp5BpJBu117VCHEZKuQeTCjIiRDvLPHGAjaaROCMosnEbpDAVay%2b2fjAeCXlrfoPbVoCa2mDsKDorpYUAHoSmmbRrTBGLayLTe4J1f1243MQmfkBFVx1T6WJybMJ00A4%3d" class="fl-link-button">View All Configurations</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    
+
+    <div class=" ">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYtvwss%2b7YbkoygFYf%2bIl2ErzwkG58DA%2bgYOmBvzw4MW0lwZ5kwU8Yc8hzeJE5l4J0iyGuW%2bz9HJ8N0q6nUQ6ppxxFaID52MntvhhsZVmN93LPlJxRb6J0uhHFPGJKqXOKg%3d%3d">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Outlet_Stockroom_Images/Chromebook_11_3180.jpeg' alt='Chromebook 11 - 3180' title='Chromebook 11 - 3180'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYtvwss%2b7YbkoygFYf%2bIl2ErzwkG58DA%2bgYOmBvzw4MW0lwZ5kwU8Yc8hzeJE5l4J0iyGuW%2bz9HJ8N0q6nUQ6ppxxFaID52MntvhhsZVmN93LPlJxRb6J0uhHFPGJKqXOKg%3d%3d">
+                        Chromebook 11 - 3180<br/>$169.00
+                    </a>
+                </h4>
+                <span></span>
+            </li>
+            <li>
+                <div class="fl-item-condition"></div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>16GB eMMC Hard Drive</div>
+                        
+                                <div>2GB DDR3 Memory</div>
+                        
+                                <div>11.6 inch HD(1366x768) LCD</div>
+                        
+                                <div>Black - LCD Back Cover (Non-Touch Screen)</div>
+                        
+                                <div>Dell Outlet Chromebook 11 - 3180</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$169.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYtvwss%2b7YbkoygFYf%2bIl2ErzwkG58DA%2bgYOmBvzw4MW0lwZ5kwU8Yc8hzeJE5l4J0iyGuW%2bz9HJ8N0q6nUQ6ppxxFaID52MntvhhsZVmN93LPlJxRb6J0uhHFPGJKqXOKg%3d%3d" class="fl-link-button">View All Configurations</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    
+
+    <div class=" ">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfXxnVafogY1pbPU%2bF%2bv0mCJMjVp6JM8WRBPPFOy1IabfBFaV0HmXb%2bKOigCY9%2bDhkwGv1g%2f%2bB6UEWO19ygYUtnL4c8xCC6Vj5D0q27RTwnE7CFcNuAYYMweSM3H5LUvU9MNiJPc1esD8dZAtJlrNEZiMr6UTYF0wNa">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Inspiron_15_3000_Series_3552.jpg' alt='Inspiron 15 - 3552' title='Inspiron 15 - 3552'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIT5BedBXJHMYoUZv1R4zAfXxnVafogY1pbPU%2bF%2bv0mCJMjVp6JM8WRBPPFOy1IabfBFaV0HmXb%2bKOigCY9%2bDhkwGv1g%2f%2bB6UEWO19ygYUtnL4c8xCC6Vj5D0q27RTwnE7CFcNuAYYMweSM3H5LUvU9MNiJPc1esD8dZAtJlrNEZiMr6UTYF0wNa">
+                        Inspiron 15 - 3552<br/>$179.00
+                    </a>
+                </h4>
+                <span></span>
+            </li>
+            <li>
+                <div class="fl-item-condition">Certified Refurbished</div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3060 Processor (Dual Core, up to 2.48GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Windows 10 Home 64bit English</div>
+                        
+                                <div>500 GB SATA Hard Drive (5400 RPM)</div>
+                        
+                                <div>4GB DDR3L 1600MHz (1x4GB)</div>
+                        
+                                <div>15.6 inch HD (1366x768) Truelife LED-Backlit Display</div>
+                        
+                                <div>Tray load DVD Drive (Reads and Writes to DVD/CD)</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Free Shipping Included</div>
+                        
+                                <div>Black - LCD Back Cover (Non Touch)</div>
+                        
+                                <div>Dell Outlet Inspiron 15 - 3552</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$179.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="Handler/SecondaryLikeConfigHandler.ashx?c=us&cs=22&l=en&s=dfh&sign=rreSI5O4K6wQiDHVnqh9lsLDX89duTuwyJPLALyJjUKi3UFvuMu%2bIjYALFEr1kEJhRshROJCMkcih5MzzhzPC7i8Bj1Dv%2b0MWCY%2fKFw%2fKf02yTtwCRz16WZqZdgGfTPLvGvbrtmXBdPSlzzmbwhWHv9lLIv2u9LCYJhXWm7219BYPkhRNinOBYgSA964w2XMHB3zjUi1hZSGBuski6c7ZG4Mm3eLlp%2b8gvPuOqkGnwGuHIESHxMIDLbAx05u6lD46R7rj0iFgzRGHID8UDd9Nf1g7HOrkMqjVrV5ePEKQ0ofRIogBE4t6A%3d%3d" class="fl-link-button">Add to Cart</a>
+            </li>
+        </ul>
+    </div>
+    
+
+    
+
+    <div class="fl-pad-rgt-0 ">          
+        <ul>
+            <li>
+                <a href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIQrv7xeQ6ZdxmBJUVxXy5zXHdt0vQFlWXBpm3M6JcXcqz8nDZJLs1Scy44UecLU%2bzTzHkOChSlq%2fSL1wQbuLy%2brzdK78%2bn9W99vIaMhMDqbScib4BiUwA6uP%2fTWeyxPSRU2j9%2fwrtEdRFNUE%2bvpyUXjjGYHaPF%2fNFpUai65V939dCJEIVAtaivb">
+                    <img class="image-centered widthMax216 fl-config-img-head" src='http://i.dell.com/sites/imagecontent/consumer/merchandizing/en/PublishingImages/Inspiron_15_3000_Series_3552.jpg' alt='Inspiron 15 - 3552' title='Inspiron 15 - 3552'>
+                </a>
+            </li>
+            <li>
+                <h4 class="fl-sub-head">
+                    <a class="fl-config-caption" href="../Online/SecondaryInventorySearch.aspx?c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguy5v96ClWDIQrv7xeQ6ZdxmBJUVxXy5zXHdt0vQFlWXBpm3M6JcXcqz8nDZJLs1Scy44UecLU%2bzTzHkOChSlq%2fSL1wQbuLy%2brzdK78%2bn9W99vIaMhMDqbScib4BiUwA6uP%2fTWeyxPSRU2j9%2fwrtEdRFNUE%2bvpyUXjjGYHaPF%2fNFpUai65V939dCJEIVAtaivb">
+                        Inspiron 15 - 3552<br/>$179.00
+                    </a>
+                </h4>
+                <span></span>
+            </li>
+            <li>
+                <div class="fl-item-condition">Certified Refurbished</div>
+                <div class="fl-config-desc-container">
+                    
+                                <div>Processor: Intel Celeron N3050 Processor (Dual Core, up to 2.16 GHz, 2M Cache, 6W)</div>
+                        
+                                <div>Windows 10 Home 64bit English</div>
+                        
+                                <div>500 GB SATA Hard Drive (5400 RPM)</div>
+                        
+                                <div>4GB DDR3L 1600MHz (1x4GB)</div>
+                        
+                                <div>15.6 inch HD (1366x768) Truelife LED-Backlit Display</div>
+                        
+                                <div>Tray load DVD Drive (Reads and Writes to DVD/CD)</div>
+                        
+                                <div>Intel HD Graphics</div>
+                        
+                                <div>Free Shipping Included</div>
+                        
+                                <div>Black - LCD Back Cover (Non Touch)</div>
+                        
+                                <div>Dell Outlet Inspiron 15 - 3552</div>
+                        
+                </div>
+            </li>
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <lft>Outlet Price</lft><rgt>$179.00</rgt>
+            </li>                    
+            <li>
+                <div class="fl-line-aaa"></div>
+            </li>
+            <li>
+                <a href="Handler/SecondaryLikeConfigHandler.ashx?c=us&cs=22&l=en&s=dfh&sign=rreSI5O4K6wQiDHVnqh9lvRc3Wz%2flcd9RmuVCzdbluNJJlHl%2fVEnuI6RPYjpGLtshUCHH8WhPTfYaWxKQ3yi2XLlHXGsbLdVOU99QN56QSgTHN2nZzx8ycyYjYX%2bePM4OTJfsKv6GqP%2fpZGaD99cWe1TDMTEHHGlp7%2bFTqRxgFqPKUme0h8lGBzubLODVpl1uSxhBDda0RauJl1m6%2bC%2fygIzza%2bY7Fv4J21QgsW5Kzs9QqunaQ1R3Z2mpUkJO0l6xtDDzw8TK52oQHlHpVfqH4G%2f6dD1q6wvJOBIbwTxsRoOYklJx%2bJyCg%3d%3d" class="fl-link-button">Add to Cart</a>
+            </li>
+        </ul>
+    </div>
+    
+    
+</div>
+<div class="fl-clear"></div>
+</div>
+
+                </div>
+
+            <form id="reference_form" name="reference_form">
+                <input type="hidden" id="id_signature" name="id_signature" value="PXhcOSHtr1T4IOw%2fPR7UdePOtkYWJZguURLaJoRyxGFAAq1xpbfSjG1GlcsxQpPErqBtXX3h847m780lmefBlU23dWjRa6sJ1uNGwAcQgeHstW2hyXzBDbOmcAcXQA4a96dKttZ29%2b%2bluOkQnc2cMktzxAACqC0X2t9pVzyv4zqydWmeAKCFs24ts6a4iE2ARh6ZVR0Yz7k3E%2f3ErVjsQkNE7kvZdfDJfRRgbH93pghvIleqjBowEsmrBH0luKTN" />
+                <input type="hidden" value="http://outlet.us.dell.com/ArbOnlineSales/Online/LikeConfigDetails.aspx?c=us&amp;cs=22&amp;l=en&amp;s=dfh&amp;FLTS={0}&amp;PGFO={1}&amp;sign={2}" id="id_fetch_path" name="id_fetch_path" />
+                <input type="hidden" value="" id="id_last_search_cat" name="id_last_search_cat" />
+                <input type="hidden" id="id_sort_option_ref" value="" />
+                <input type="hidden" id="id_current_page_ref" value="" />
+            </form>
+        
+    </div>
+</body>
+</html>
+
+
+</td></tr>
+<tr><td valign="top" width="728" style="padding-right:10px;padding-top:10px;padding-bottom:10px;"><span class="para"><script type="text/javascript" src="https://channelspro.us.dell.com/netagent/proactive/proactive.aspx" async></script>
+					<script language="javascript">
+					var talCustProp = 'SalesValue=';
+					</script></span></td></tr>
+<tr><td valign="top" width="728"><table cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" width="728"></td></tr></table></td></tr>
+</table></div></td></tr></table></div><!-- content_end-->
+<div class="footercontainer"><table class="centertable" cellpadding="0" cellspacing="0" border="0" width="965px"><tr><td><script language="javascript">writeFooterBegin();</script>
+<div class="footerlinkscontainer"><table id="footerlinkstable" cellpadding="0" cellspacing="0"><tr><td valign="top"><div class="footerlinkstitle">Do more with Dell</div><div class="footerlink"><a  href="http://www.dell.com/learn/campaigns/segmentor-usmpp?s=eep">Employee and Student Discounts</a></div><div class="footerlink"><a  href="https://partner.dell.com/en-us/partner/partner.htm">Partner Program</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/22/campaigns/outlet">Dell Outlet</a></div><div class="footerlink"><a  href="http://en.community.dell.com/techcenter/default.aspx">TechCenter</a></div><div class="footerlink"><a  href="https://dfs.dell.com/Pages/DFSHomePage.aspx">Make a Payment</a></div></td><td valign="top"><div class="footerlinkstitle">About Dell</div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/about-dell-investor">Investors</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/about-dell">Company Information</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/cr">Corporate Social Responsibility</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/customer-engagement">Customer Engagement</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/careers">Careers</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/about-dell-newsroom">Dell Newsroom</a></div><div class="footerlink"><a  href="http://www.delltechnologies.com/en-us/index.htm">Dell Technologies</a></div></td><td valign="top"><div class="footerlinkstitle">Legal</div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/policies-ads-and-emails">Ads & Emails</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/policies-privacy">Privacy Statement</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/terms">Legal & Regulatory</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/terms-of-sale">Terms of Sale</a></div><div class="footerlink"><a  href="http://www.dell.com/learn/us/en/uscorp1/trademarks">Trademarks</a></div></td><td valign="top"><div class="footerlinkstitle">Community</div><div class="footerlink"><a  href="http://en.community.dell.com/">The Dell Community</a></div><div class="footerlink"><a  href="https://blog.dell.com/">Read Our Blog</a></div><div class="footerlink"><a  href="http://en.community.dell.com/support-forums/default.aspx">Support Forums</a></div><div class="footerlink"><a  href="http://events.dell.com/?lang=en">Events</a></div></td></tr></table></div>
+</td></tr></table></div><div class="legalcontainer"><table class="centertable" cellpadding="0" cellspacing="0" border="0" width="965px"><tr><td valign="middle" align="center"><table width="100%" cellpadding="0" style="padding-left:10px;" cellspacing="0" border="0">
+<tr><td colspan="2" ><img src="http://i.dell.com/images/global/general/spacer.gif" border="0" height="5" width="1" alt="" /></td></tr>
+<tr><td align="center" valign="top">
+<p class="para_small"><a  href="http://www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright">©&nbsp;2017 Dell</a> | 
+							<a  href="http://www.dell.com/learn/us/en/uscorp1/terms-of-sale">Terms of Sale</a> | 
+
+							<a  href="http://www.dell.com/learn/us/en/uscorp1/policies-privacy">Privacy</a> | 
+
+							<a  href="http://www.dell.com/learn/us/en/uscorp1/policies-ads-and-emails">Ads & Emails</a> | 
+
+							<a  href="http://www.dell.com/learn/us/en/uscorp1/dell-environment-recycling">Dell Recycling</a> | 
+							<a  href="http://www.dell.com/support/Contents/category/Contact-Information">Contact</a><a  href="http://www.dell.com/sitemap">Site Map</a> | 
+
+							<a class="oplabs opinionlabhtml" >Feedback</a><br><span data-title="Products"><a  href="http://www.dell.com/us/p/laptops">Laptops</a> | <a  href="http://www.dell.com/us/p/desktops">Desktops</a> | <a  href="http://www.dell.com/us/business/p/laptops.aspx?c=us&l=en&s=bsd">Laptops for Work</a> | <a  href="http://www.dell.com/us/business/p/desktops-n-workstations">Desktops for Work</a> | <a  href="http://www.dell.com/business/workstations">Workstations</a> | <a  href="http://www.dell.com/us/business/p/servers">Servers</a> | <a  href="http://www.dell.com/us/business/p/storage-products">Storage</a> | <a  href="http://www.dell.com/services">Services</a> | <a  href="http://www.dell.com/monitors">Monitors</a> | <a  href="http://www.dell.com/printers">Printers</a> | <a  href="http://accessories.us.dell.com/sna/category.aspx?c=us&l=en&s=dhs&cs=19&category_id=5914">LCD TVs</a> | <a  href="http://accessories.us.dell.com/home">Electronics</a> | <a  href="http://search.dell.com/BloomReachTopSearches.aspx?c=us&cs=22&l=en&s=dfh">Top Searches</a></span></p>
+</td></tr></table>
+</td><td valign="middle" align="right" nowrap="nowrap"><div class="snvlrg"><a href="http://outlet.us.dell.com/ArbOnlineSales/Online/InventorySearch.aspx?AspxAutoDetectCookieSupport=1&brandid=2201&c=us&cs=22&l=en&s=dfh&sign=PXhcOSHtr1T4IOw%2fPR7UdeQtbyhLTSCPtk9T%2biRSy4QpAPByz8ZiU1SGs%2fxJbwPdwFXQqFeTWCNa2Wm34rY2e25qIC42i5BFu9Fn0n5JbxrJf6HQx%2fWeRXCI8Rvf1IrLagqoVRPvS0ORu5tjlnuqU7w7uAioDWTYeLsGCu3VLD6%2byW4WuAPu1qasosL3MscKmI%2b893L1j0S%2ftGBEduCSq%2fnJ1PGGDEsHFyMS%2fDtO0xDfAiBeAnq%2b93PXTIfmDH7O&~f=lg">Large Text</a></div>
+</td></tr></table></div><script type="text/javascript" language="JavaScript">
+m_pzationPageHash="D47C-1867";
+</script>
+<div class="technotescontainer"><table class="centertable" cellpadding="0" cellspacing="0" border="0" width="965px"><tr><td><div id="disclaimers" class="disclaimers">
+<!-- Begin_Legal_footer --><div class="technotecontainer"><div>ABOVE PRICES INCLUDE ANY APPLICABLE DISCOUNTS. Outlet systems are refurbished, previously ordered new or scratch and dent. Supplies limited to stock on hand. Offers subject to change, not combinable with all other offers. Taxes, shipping, and other fees apply.  Limit 5 items per customer. Offer not valid for Resellers.  Dell reserves the right to cancel orders arising from pricing or other errors.<br/><br/>
+	^DELL PREFERRED ACCOUNT (DPA): Offered to U.S. residents by WebBank, who determines qualifications for and terms of credit. Taxes, shipping, and other charges are extra and vary. [Dell and the Dell logo are trademarks of Dell Inc.]<br/><br/>
+	^Dell Business Credit: Offered to Small and Medium Business customers by WebBank who determines qualifications for and terms of credit. Taxes, shipping and other charges are extra and vary. Minimum monthly payments are the greater of $15 or 3% of the new balance shown on the monthly billing statement. [Dell and the Dell logo are trademarks of Dell Inc.]</div><br /></div><!-- End_Legal_footer -->
+</div>
+<div id="footer" class="disclaimers"></div>
+</td></tr></table></div><font class="secretTextNextGen">snWEB4</font><script language="JavaScript">
+sReady();
+</script>
+</td></tr></table></body></html>
