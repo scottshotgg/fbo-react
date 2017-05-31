@@ -1,3 +1,130 @@
 <html>
- <div id="drawer" style="width: 20%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+
+	<!-- fix this shit not working -->
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.4/dt-1.10.13/datatables.min.css">
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.24.3/css/uikit.min.css">
+  	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/dataTables.uikit.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/uikit.min.css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.15/datatables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jqc-1.12.4/dt-1.10.13/datatables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.uikit.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var table = $('#content-table').DataTable()
+			table.order( [[3, 'dec'], [0, 'asc']]).draw();
+		});
+	</script>
+
+	<!-- CSS STYLING -->
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 15px;
+      }
+
+      th {
+        font-size: 22px;
+      }
+
+      td {
+        font-size:18px;
+      }
+
+      td:last-child {
+        width: 120px;
+      }
+    </style>
+
+	<title>
+		FBO Mailer Database
+	</title>
+</head>
+
+<body>
+	<div id="main" style="height: 100%; width: 100%;">
+		<nav id="nav-header" class="uk-navbar-container" uk-navbar>
+			<a class="uk-navbar-item uk-logo" href="#">FBO Mailer Database</a>
+		    <div class="uk-navbar-left">
+		        <ul class="uk-navbar-nav">
+		            <li class="uk-parent"><a href="">complete</a></li>
+		            <li class="uk-parent"><a href="">personal</a></li>
+		        </ul>
+		    </div>
+		    <div class="uk-navbar-right">
+				<div class="uk-offcanvas-content">
+				    <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" type="button" uk-toggle="target: #offcanvas-usage">
+					    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" ratio="1">
+						    <rect y="9" width="20" height="2"></rect>
+						    <rect y="3" width="20" height="2"></rect>
+						    <rect y="15" width="20" height="2"></rect>
+					    </svg>
+				    </a>
+				    <div id="offcanvas-usage" uk-offcanvas>
+				        <div class="uk-offcanvas-bar">
+				            <button class="uk-offcanvas-close" type="button" uk-close></button>
+				            <h3><center>Settings</center></h3>
+				            <p>Here you can modify settings -- Gonna add shit here later</p>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</nav>
+		<div id="content" style="margin: 40px;">
+			<table id="content-table" class="uk-table uk-table-hover uk-table-striped dataTable" >
+			    <caption>Table Caption</caption>
+			    <thead>
+			        <tr>
+			            <th>Table Heading</th>
+			            <th>Table Heading</th>
+			            <th>Table Heading</th>
+			        </tr>
+			    </thead>
+			    <tfoot>
+			        <tr>
+			            <td>Table Footer</td>
+			            <td>Table Footer</td>
+			            <td>Table Footer</td>
+			        </tr>
+			    </tfoot>
+			    <tbody>
+			        <tr>
+			            <td>Table Data</td>
+			            <td>Table Data</td>
+			            <td>Table Data</td>
+			        </tr>
+			        <tr>
+			            <td>Table Data</td>
+			            <td>Table Data</td>
+			            <td>Table Data</td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+	</div>
+
+
+</body>
+
 </html>
