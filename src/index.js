@@ -101,11 +101,9 @@ class Drawer extends React.Component {
   render() {
     console.log(this)
     return (
-      <div id="drawer" className="drawer" style={{ minWidth: '100px', width: this.width, height: this.height, background: '#0072C6'}}>
-        <button type="button" onClick={ () => this.onclick() } className="btn btn-secondary btn-lg" aria-label="Justify" style={{ background: 'transparent', width: this.width, height: .5 * this.width }}>
-          <span className="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-        </button>
-      </div>
+      // https://edgecoders.com/you-dont-need-a-fancy-framework-to-use-graphql-with-react-b47b436626fb
+
+      /* here we are going to return the database stuff and string it */
     );
 
   }

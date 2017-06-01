@@ -1,65 +1,148 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+<html>
 
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/uikit.min.css" />
-    <script src="%PUBLIC_URL%/js/jquery.js"></script>
-    <script src="%PUBLIC_URL%/js/uikit.min.js"></script>
-    <script src="%PUBLIC_URL%/js/uikit-icons.min.js"></script>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="theme-color" content="#000000">
+	    <!--
+	      manifest.json provides metadata used when your web app is added to the
+	      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+	    -->
 
+	    <link rel="stylesheet" href="css/uikit.min.css" />
+	    <script src="js/jquery.js"></script>
+		<script src="js/jquery.tablesorter.js"></script> 
+	    <script src="js/uikit.min.js"></script>
+	    <script src="js/uikit-icons.min.js"></script>
 
-    <!-- CSS STYLING -->
-    <style>
-      table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
+		<style>
+			th {
+				background: #F8F8F8;
+				border: 1px solid #d9e6fc;
+				border-collapse: collapse;
+			}
 
-      th, td {
-        padding: 15px;
-      }
+			table, td {
+				background: #d9e6fc;
+				border: 1px solid white;
+				border-collapse: collapse;
+			}
 
-      th {
-        font-size: 22px;
-      }
+			th, td {
+				text-align: center;
+			}
 
-      td {
-        font-size:18px;
-      }
+			th {
+				font-size: 22px;
+			}
 
-      td:last-child {
-        width: 120px;
-      }
-    </style>
+			td {
+				font-size: 16px;
+			}
 
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+			td:last-child {
+				width: 120px;
+			}
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root">
-      <!-- Stuff goes here -->
-    </div>
+			.header {
+				font-size: 16px !important;
+				font-weight: normal !important;
+			}
 
+			.font-header {
+				color: #464a51;
+			}
 
-  </body>
+		</style>
+
+		<title>
+			FBO Mailer Database
+		</title>
+	</head>
+
+	<body style="overflow: scroll;">
+		<div id="main" style="height: 100%; width: 100%;">
+			<nav id="navbar" class="uk-navbar-container" uk-navbar>
+				<a class="uk-navbar-item uk-logo uk-margin-left uk-margin-right" href="#">FBO Mailer Database</a>
+				<!--
+				<div id="separator"> 
+					<div style="width: 25px;"></div>
+					<div style="width: 2px; background: #000000;"></div>
+					<div style="width: 25px;"></div>
+				</div>
+				-->
+			    <div class="uk-navbar-left">
+			        <ul class="uk-navbar-nav">
+			            <li class="uk-active"><a href="index.html">complete</a></li>
+			            <li class="uk-parent"><a href="">personal</a></li>
+			        </ul>
+			    </div>
+			    <div class="uk-navbar-right uk-margin-right">
+					<div class="uk-offcanvas-content" style="width: 100px">
+					    <a class="uk-navbar-toggle uk-navbar-toggle-icon uk-icon" type="button" uk-toggle="target: #offcanvas-usage">
+						    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" ratio="1">
+							    <rect y="9" width="20" height="2"></rect>
+							    <rect y="3" width="20" height="2"></rect>
+							    <rect y="15" width="20" height="2"></rect>
+						    </svg>
+					    </a>
+					    <div id="offcanvas-usage" uk-offcanvas>
+					        <div class="uk-offcanvas-bar">
+
+					            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+					            <h3><center>Settings</center></h3>
+
+					            <p>Here you can modify settings</p>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</nav>
+			<div id="content" class="uk-padding" style="overflow: hidden;">
+			<!-- use this and make the table out of this later -->
+			<!-- could do this for the table, but probably better to just use a table
+				<div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
+				    <div>
+				        <div class="uk-tile uk-tile-default">
+				            <p class="uk-h4">Default</p>
+				        </div>
+				    </div>
+				    <div>
+				        <div class="uk-tile uk-tile-muted">
+				            <p class="uk-h4">Muted</p>
+				        </div>
+				    </div>
+				    <div>
+				        <div class="uk-tile uk-tile-primary">
+				            <p class="uk-h4">Primary</p>
+				        </div>
+				    </div>
+				    <div>
+				        <div class="uk-tile uk-tile-secondary">
+				            <p class="uk-h4">Secondary</p>
+				        </div>
+				    </div>
+				</div>
+				-->
+				<noscript>
+					You need to enable JavaScript to run this app.
+				</noscript>
+				
+				<div id="root">
+				<!-- Stuff goes here -->
+				</div>
+			
+
+        <!-- run that later when this the database stuff loads -->
+				<script>
+				$(document).ready(function() { 
+					$("#fbotable").tablesorter();  
+				}); 
+				</script>
+
+			</div>
+		</div>
+	</body>
+
 </html>
